@@ -17,11 +17,11 @@ node *voter_insert(node *);
 node *main_logs(node *);
  void admin();
  void winner();
- 	void exi();
- 	void voting();
- 	void not_again();
- 	void stop();
- 	void show();
+ void exi();
+ void voting();
+ void not_again();
+ void stop();
+ void show();
 
 
 int count=0,R=3,vote=0;
@@ -115,16 +115,16 @@ int *z;
      head=temp;
      while(temp!=NULL)
      {
-         if((strcmp(temp->aadhar,"100010001001")==0&& strcmp(temp->name,"Rajat Kumar")==0 &&strcmp(temp->birth_date,"31-03-1999")==0) ||
-         (strcmp(temp->aadhar,"100010001002")==0&& strcmp(temp->name,"Goutam Kumar Bhadani")==0 &&strcmp(temp->birth_date,"01-01-1999")==0)||
-         (strcmp(temp->aadhar,"100010001003")==0&& strcmp(temp->name,"Gautam Kumar")==0 &&strcmp(temp->birth_date,"12-10-1999")==0)||
-         (strcmp(temp->aadhar,"100010001004")==0&& strcmp(temp->name,"Kundan Kumar")==0 &&strcmp(temp->birth_date,"08-12-1999")==0)||
-         (strcmp(temp->aadhar,"100010001005")==0&& strcmp(temp->name,"Aniket Arora")==0 &&strcmp(temp->birth_date,"28-08-1999")==0)||
-         (strcmp(temp->aadhar,"100010001006")==0&& strcmp(temp->name,"Aprita Singh")==0 &&strcmp(temp->birth_date,"20-10-2000")==0)||
-         (strcmp(temp->aadhar,"100010001007")==0&& strcmp(temp->name,"Avinash Kumar")==0 &&strcmp(temp->birth_date,"02-03-1999")==0)||
-         (strcmp(temp->aadhar,"100010001008")==0&& strcmp(temp->name,"Ravi Raj")==0 &&strcmp(temp->birth_date,"26-12-1999")==0)||
-         (strcmp(temp->aadhar,"100010001009")==0&& strcmp(temp->name,"Shubham Kumar")==0 &&strcmp(temp->birth_date,"02-01-1999")==0)||
-         (strcmp(temp->aadhar,"100010001010")==0&& strcmp(temp->name,"Subham Kumar")==0 &&strcmp(temp->birth_date,"03-01-1999")==0))
+         if((strcmp(temp->aadhar,"100010001001")==0&& strcmp(temp->name,"Mukesh Ambani")==0 &&strcmp(temp->birth_date,"19-04-1957")==0) ||
+         (strcmp(temp->aadhar,"100010001002")==0&& strcmp(temp->name,"Gautam Gambhir")==0 &&strcmp(temp->birth_date,"14-10-1981")==0)||
+         (strcmp(temp->aadhar,"100010001003")==0&& strcmp(temp->name,"Gautam Adani")==0 &&strcmp(temp->birth_date,"24-05-1978")==0)||
+         (strcmp(temp->aadhar,"100010001004")==0&& strcmp(temp->name,"Mithali Raj")==0 &&strcmp(temp->birth_date,"03-12-1982")==0)||
+         (strcmp(temp->aadhar,"100010001005")==0&& strcmp(temp->name,"Raj Kumar Singh")==0 &&strcmp(temp->birth_date,"20-12-1952")==0)||
+         (strcmp(temp->aadhar,"100010001006")==0&& strcmp(temp->name,"Robin Hood")==0 &&strcmp(temp->birth_date,"20-10-1999")==0)||
+         (strcmp(temp->aadhar,"100010001007")==0&& strcmp(temp->name,"Anand Singhania")==0 &&strcmp(temp->birth_date,"02-03-1999")==0)||
+         (strcmp(temp->aadhar,"100010001008")==0&& strcmp(temp->name,"Ravi Reddy")==0 &&strcmp(temp->birth_date,"26-12-2000")==0)||
+         (strcmp(temp->aadhar,"100010001009")==0&& strcmp(temp->name,"Sundar Pichai")==0 &&strcmp(temp->birth_date,"10-05-1972")==0)||
+         (strcmp(temp->aadhar,"100010001010")==0&& strcmp(temp->name,"Leena Nair")==0 &&strcmp(temp->birth_date,"11-05-1969")==0))
 
          {
          	R=3;
@@ -404,4 +404,3 @@ node *search(char x[],char y[],char z[],node *start,int *Y)
   }
   return start;
  }
-
